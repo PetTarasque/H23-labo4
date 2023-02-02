@@ -7,16 +7,15 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.core.Response;
 import ulaval.glo2003.domain.User;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Path("users")
 public class UserResource {
-    private final ArrayList<User> users;
+    private final List<User> users;
 
-    public UserResource() {
-        this.users = new ArrayList<>();
+    public UserResource(List<User> users) {
+        this.users = users;
     }
 
     @POST
