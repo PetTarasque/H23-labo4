@@ -1,4 +1,4 @@
-package ulaval.glo2003;
+package ulaval.glo2003.api;
 
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.ext.ExceptionMapper;

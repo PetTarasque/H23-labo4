@@ -1,4 +1,4 @@
-package ulaval.glo2003;
+package ulaval.glo2003.api;
 
 public class UserResponse {
     public final String id;
